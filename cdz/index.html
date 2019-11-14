@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>橘猫聚享</title>
+    <link rel="stylesheet" type="text/css" href="static/youxia_pc_style.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="top-content">
+            <div class="t-body">
+                <!-- <h1>大楚农场</h1> -->
+                <div class="t-info">
+                    <div class="c-left"></div>
+                    <div class="c-right">
+                        <dl>
+                            <!-- <dt><img src="static/youxia-name.png"></dt> -->
+                            <dd></dd>
+                        </dl>
+                        <ul>
+                            <li class="adr code-con" id="a-code-con">
+                                <a href="https://www.pgyer.com/dcnc_wallet"></a>
+                                <div class="codeapp" id="a-codeapp" style="display: none;">
+                                    <img src='static/android_20191112115034.png' />
+                                </div>
+                            </li>
+                            <li class="ios code-con" id="i-code-con">
+                                <a href="https://www.pgyer.com/ios_wallet"></a>
+                                <div class="codeapp" id="i-codeapp" style="display: none;">
+                                    <img src='static/ios20191112115027.png' />
+                                </div>
+                            </li>
+                            <li class="win"><a href="javascript:;"></a></li>
+                            <li class="mac"><a href="javascript:;"></a></li>
+
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="center">
+        <div class="c-body">
+            <h2>产品优势</h2>
+            <div class="ys-con">
+                <dl>
+                    <dt><img src="static/youxia-speed stability.png"></dt>
+                    <dd>
+                        <h4>入股分红</h4>
+                    </dd>
+                    <dd>每天分红，评分奖励</dd>
+                    <dd>直推分红，多重奖励</dd>
+                </dl>
+                <dl>
+                    <dt><img src="static/youxia-security intelligence.png"></dt>
+                    <dd>
+                        <h4>安全智能</h4>
+                    </dd>
+                    <dd>安全加密，保证隐私</dd>
+                    <dd>智能模式，更为便捷</dd>
+                </dl>
+                <dl>
+                    <dt><img src="static/youxia-service.png"></dt>
+                    <dd>
+                        <h4>高端服务</h4>
+                    </dd>
+                    <dd>专业客服，保驾护航</dd>
+                    <dd>疑难杂症，及时处理</dd>
+                </dl>
+                <dl>
+                    <dt><img src="static/youxia-global line.png"></dt>
+                    <dd>
+                        <h4>会员等级</h4>
+                    </dd>
+                    <dd>多重奖励，优惠不断</dd>
+                    <dd>升级灵活，奖励不断</dd>
+                </dl>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="f-con">
+            <dl class="f-tit">
+                <!-- <dt>适合人群</dt> -->
+                <!-- <dd>农场直销、优惠购物、限时抢购、坐享分成</dd> -->
+            </dl>
+            <div class="f-line">
+                <p>下载橘猫聚享客户端</p>
+            </div>
+            <div class="downlist">
+                <a href="http://app.mi.com/details?id=cn.gcgrandshare.jumao&ref=search">
+                    <dl>
+                        <dt><img src="static/youxia-f-andrion.png"></dt>
+                        <dd>Android</dd>
+                    </dl>
+                </a>
+                <!-- <a href="http://youxiajs.com/ios/share.html"> -->
+                <a href="https://apps.apple.com/us/app/橘猫聚享/id1485691824?l=zh&ls=1">
+                    <dl>
+                        <dt><img src="static/youxia-f-ios.png"></dt>
+                        <dd>IOS</dd>
+                    </dl>
+                </a>
+                <!-- <a href="javascript:;" class="b-win">
+                    <dl>
+                        <dt><img src="static/youxia-f-win.png"></dt>
+                        <dd>Wiondows</dd>
+                        <dd>(敬请期待)</dd>
+                    </dl>
+                </a>
+                <a href="javascript:;" class="b-mac">
+                    <dl>
+                        <dt><img src="static/youxia-f-mac.png"></dt>
+                        <dd>Mac</dd>
+                        <dd>(敬请期待)</dd>
+                    </dl>
+                </a> -->
+
+            </div>
+
+        </div>
+    </div>
+    <div class="copy-right">
+        Copyright 2019 Wuhan Zhihui Yunjumao Electronic Commerce Co. Ltd.
+           鄂ICP备19022029号
+    </div>
+    <script>
+        window.onload = function () {
+            var timer = null;
+            var timerw = null;
+            var aCode = document.getElementById("a-code-con");
+            var aApp = document.getElementById("a-codeapp");
+            var iCode = document.getElementById("i-code-con");
+            var iApp = document.getElementById("i-codeapp");
+            aCode.onmouseover = function () {
+                clearTimeout(timer);
+                aApp.style.display = "block";
+            };
+            aCode.onmouseout = function () {
+                timer = setTimeout(function () {
+                    aApp.style.display = "none";
+                }, 100);
+            };
+
+            iCode.onmouseover = function () {
+                clearTimeout(timerw);
+                iApp.style.display = "block";
+            };
+            iCode.onmouseout = function () {
+                timerw = setTimeout(function () {
+                    iApp.style.display = "none";
+                }, 100);
+            };
+        };
+    </script>
+
+</body>
+
+</html>

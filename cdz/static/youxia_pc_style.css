@@ -1,0 +1,100 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+    display: block;
+}
+
+h1,h2,h3,h4,h5{ font-weight: normal; }
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+    display: none;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a { text-decoration:none; }
+a:hover { text-decoration:none; }
+
+body{ font-family:"PingFangSC-Regular","Microsoft YaHei", Arial, "sans-serif"; background: #fff;}
+
+.top{width: 100%;background: #feb150;}
+.top .top-content{ width: 1100px; margin:0 auto; height: 640px;   background: url(youxia-bgpic.png) no-repeat;background-size: 295px auto;}
+.t-body{width: 1204px; margin:0 auto; padding-top: 41px; }
+.top .top-content h1{color: #fff; font-size: 18px;background: url(youxia-pc_icon.png) no-repeat; height: 28px; line-height: 28px; padding-left:41px;  }
+.t-info{padding-top:20px; }
+.t-info .c-left{ width: 425px; height: 493px;  float: left; margin-right:129px;  }
+.c-right{color: #fff; margin-top:73px;  }
+.c-right dl {margin-bottom:54px; }
+.c-right dl dt img{width: 300px; height: 140px; }
+
+.c-right ul li{float: left;margin-bottom:19px; margin-right: 14px;  }
+.c-right ul li a{display: block; width: 218px; height: 58px; }
+.c-right ul li.win a{background: url(youxia-windows.png) 0 0 no-repeat;  }
+.c-right ul li.mac a{background: url(youxia-mac_download_off.png) 0 0 no-repeat;}
+.c-right ul li.adr a{background: url(youxia-android_download.png) 0 0 no-repeat;  }
+.c-right ul li.ios a{background: url(youxia-ios_download.png) 0 0 no-repeat;  }
+
+.c-right ul li.code-con{ position: relative; }
+.c-right ul li.code-con .codeapp{position: absolute; left: 2px; top:63px; box-shadow: 0px 1px 10px #999; overflow: hidden;  width: 215px; height: 220px; background:#fff; border-radius: 3px;}
+.c-right ul li.code-con .codeapp img{ width: 150px; height:150px; margin: 35px 0 0 35px; }
+
+
+.center{ background: #fff; }
+.c-body{ width: 1204px; overflow: hidden; margin: 0 auto; padding-top: 76px; padding-bottom: 183px;      }
+.c-body h2{ text-align: center; font-size: 24px; color: #9B9B9B ; margin-bottom:90px;  }
+.ys-con{display: flex;  justify-content:space-between;}
+.ys-con dl{width: 180px;  text-align: center; }
+.ys-con dl dt{margin-bottom:20px; }
+.ys-con dl dd{ font-size: 18px; color: #B3B3B3; line-height: 1.3  }
+.ys-con dl dd h4{font-size: 24px; color: #777777; margin-bottom: 12px; }
+
+.footer{  height: 340px; background: linear-gradient(to right,#F79765   -38%,#FC3AA2 137%);}
+.footer .f-con{width: 1294px; height: 340px; margin: 0 auto; background: url(youxia-pcpics.png) top center no-repeat; overflow: hidden;}
+.f-con .f-tit{ overflow: hidden; font-size:18px; text-align: center; color: rgba(255,255,255,.7); width: 650px; margin: 0 auto; margin-top:24px;  height: 100px; background: rgba(244,242,242,.2); border-radius: 60px; }
+.f-con .f-tit dt{  margin-top:16px; margin-bottom: 14px;  }
+.f-con .f-tit dd{ }
+.f-line{overflow: hidden;}
+.f-line p{color: rgba(255,255,255,.8); font-size: 20px; text-align: center; margin: 30px 0;}
+.downlist{ overflow: hidden; width: 227px; margin: 0 auto; }
+.downlist a{display: block; float: left;margin: 0 30px;}
+.downlist dl{  text-align: center; }
+.downlist dl dt{ margin-bottom:18px;  }
+.downlist dl dd{font-size: 14px; color: #fff;}
+.downlist .b-mac dl dd { color: #000; }
+.downlist .b-win dl dd { color: #000; }
+
+.copy-right {text-align: center; font-size: 12px; color: #4A4A4A ; padding:22px 0;}

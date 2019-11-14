@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    height: 25vh;
+    justify-content: center;
+}
+
+.top img {
+    width: 38vw
+}
+
+.center {
+    font-size: 14px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: rgba(64, 64, 64, 1);
+    line-height: 26px;
+    margin: 0 15px;
+}
+
+.center p {
+    margin-bottom: 20px;
+}
+
+.answer {
+    margin: 0 15px;
+    margin-bottom: 20px;
+}
+
+.answer h5 {
+    font-size: 15px;
+    font-family: PingFang SC;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.answer p {
+    font-size: 13px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    line-height: 28px;
+}

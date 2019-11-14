@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>关于我们</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .top {
+            height: auto;
+            margin-top: 15vh;
+        }
+        
+        .center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .center p {
+            font-size: 20px;
+            text-align: center;
+            margin-top: 20px;
+            font-weight: 600;
+        }
+        
+        .center a {
+            width: 80vw;
+            margin: 0 auto;
+            height: 41px;
+            background: #fd444f;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            margin-top: 20px;
+            text-align: center;
+            line-height: 40px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <img src="./logo.png" alt="" style="width: 20vw">
+
+    </div>
+    <div class='center'>
+        <p>
+            试衣盒子
+        </p>
+        <p>
+            邀请码：<span id='code'></span>
+        </p>
+        <a href="http://dorago.oss-cn-shanghai.aliyuncs.com/android/dora_syj1.5.41.apk">
+Android 下载
+        </a>
+        <a href="http://dorago.oss-cn-shanghai.aliyuncs.com/android/dora_syj1.5.41.apk">
+       IOS 下载
+       </a>
+    </div>
+    <script>
+        window.onload = function() {
+            var code = window.location.href.split("code=")[1]
+
+
+            document.getElementById("code").textContent = code;
+        }
+    </script>
+</body>
+
+</html>
